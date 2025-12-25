@@ -19,7 +19,7 @@ DIR_ERROR = './procesados_fallidos'
 # Config. Firebase
 # OJO HAY OJON:  Pon la ruta real nuestra llave privada
 
-RUTA_CREDENCIALES = 'serviceAccountKey.json' 
+RUTA_CREDENCIALES = 'serviceAccountKey.json'  # credenciales de firbase
 COLECCION_DB = 'lecturas' # Nombre colección Firestore
 
 # Configuración del Logger (Bitácora de eventos)

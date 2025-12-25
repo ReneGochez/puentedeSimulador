@@ -1,0 +1,1442 @@
+[
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 97.99,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 81.74,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 32.16,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 98.8,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 76.5,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 53.69,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 49.22,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 47.83,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 51.99,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 80.65,
+        "fecha": "25 de diciembre de 2025 a las 12:25:09 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 61.71,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 56.31,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 16.92,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 87.17,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 74.43,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 65.34,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 57.76,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 87.74,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 94.26,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 54.31,
+        "fecha": "25 de diciembre de 2025 a las 12:25:26 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 22.05,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 56.76,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 35.67,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 84.28,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 14.83,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 41.81,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 30.27,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 93.44,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 17.08,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 69.93,
+        "fecha": "25 de diciembre de 2025 a las 12:25:42 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 56.31,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 23.18,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 62.74,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 25.26,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 33.44,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 73.03,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 79.85,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 32.49,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 50.82,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 46.13,
+        "fecha": "25 de diciembre de 2025 a las 12:25:57 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 70.06,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 89.73,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 48.85,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 42.54,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 23.6,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 69.7,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 47.3,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 87.78,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 91.63,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 52.61,
+        "fecha": "25 de diciembre de 2025 a las 12:26:12 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 75.4,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 95.03,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 12.12,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 67.33,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 11.83,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 71.05,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 39.43,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 33.71,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 97.8,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 26.35,
+        "fecha": "25 de diciembre de 2025 a las 12:26:28 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 55.78,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 46.99,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 37.74,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 85.94,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 75.29,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 11.37,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 87.31,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 24.09,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 21.69,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 58.8,
+        "fecha": "25 de diciembre de 2025 a las 12:26:43 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 60.69,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 34.86,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 29.2,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 29.44,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 20.04,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 31.99,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 50.07,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 17.27,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 21.55,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 62.34,
+        "fecha": "25 de diciembre de 2025 a las 12:26:58 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 28.21,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 71.85,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 79.07,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 93.07,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 43.59,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 28.18,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 68.59,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 42.62,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 27.75,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 80.46,
+        "fecha": "25 de diciembre de 2025 a las 12:27:13 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 84.04,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 42.94,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 91.97,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 59.99,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 44.51,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 17.97,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 97.31,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 49.75,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 25.09,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 23.65,
+        "fecha": "25 de diciembre de 2025 a las 12:27:29 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 44.05,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 83.72,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 91.0,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 57.16,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 48.06,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 55.88,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 56.88,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 53.35,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 57.08,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 18.51,
+        "fecha": "25 de diciembre de 2025 a las 12:27:45 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 84.94,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 11.32,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 84.6,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 87.98,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 42.86,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 91.13,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 41.87,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 76.1,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 38.5,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 53.59,
+        "fecha": "25 de diciembre de 2025 a las 12:28:00 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 46.64,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 27.09,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 63.94,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 99.54,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 63.78,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 55.35,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 47.93,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 87.29,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 98.28,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 67.61,
+        "fecha": "25 de diciembre de 2025 a las 12:28:15 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 48.75,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 91.43,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 72.18,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 18.83,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 10.79,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 26.57,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 48.69,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 93.64,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 56.59,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 83.29,
+        "fecha": "25 de diciembre de 2025 a las 12:28:31 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 17.47,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 95.49,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 55.04,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 45.39,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 14.18,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 98.75,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 62.89,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 72.79,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 74.23,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 45.09,
+        "fecha": "25 de diciembre de 2025 a las 12:28:47 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 88.25,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 79.72,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 86.49,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 41.54,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 21.24,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 26.65,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 60.13,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 13.21,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 70.48,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 16.9,
+        "fecha": "25 de diciembre de 2025 a las 12:29:02 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 0.0,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 0,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "inactivo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 13.89,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 56.92,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 69.64,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 45.4,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 58.0,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 32.94,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 18.74,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 79.53,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 68.44,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 20.77,
+        "fecha": "25 de diciembre de 2025 a las 12:29:17 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 82.15,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 26.54,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 35.8,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 66.87,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 28.38,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 67.13,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 99.57,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 47.62,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 34.88,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 76.25,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 57.79,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 35.07,
+        "fecha": "25 de diciembre de 2025 a las 12:47:22 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 29.89,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 28.52,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 81.16,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 36.84,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 26.03,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 77.78,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 78.97,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 71.48,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 39.0,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 64.02,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 68.02,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 53.0,
+        "fecha": "25 de diciembre de 2025 a las 12:47:38 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    },
+    {
+        "consumo_kwh": 35.24,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N1"
+    },
+    {
+        "consumo_kwh": 99.92,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N2"
+    },
+    {
+        "consumo_kwh": 16.95,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N3"
+    },
+    {
+        "consumo_kwh": 76.44,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N4"
+    },
+    {
+        "consumo_kwh": 56.92,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N5"
+    },
+    {
+        "consumo_kwh": 85.78,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N6"
+    },
+    {
+        "consumo_kwh": 14.83,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N7"
+    },
+    {
+        "consumo_kwh": 24.26,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N8"
+    },
+    {
+        "consumo_kwh": 50.32,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N9"
+    },
+    {
+        "consumo_kwh": 78.11,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N10"
+    },
+    {
+        "consumo_kwh": 31.15,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N11"
+    },
+    {
+        "consumo_kwh": 67.85,
+        "fecha": "25 de diciembre de 2025 a las 12:47:54 p.m. UTC-6",
+        "estado": "activo",
+        "id_punto": "N12"
+    }
+]
