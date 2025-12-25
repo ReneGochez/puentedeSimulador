@@ -56,10 +56,9 @@ def obtener_nombre_por_fecha(datos_json, nombre_original):
         # NOTA: Ajusta las claves 'fecha' y 'hora' según como vengan en tus JSON reales.
         # Asumimos formato ISO o similar. 
         fecha = datos_json.get('fecha', 'sin_fecha')
-        hora = datos_json.get('hora', 'sin_hora')
         
         # Combinamos para crear el nombre base
-        nombre_base = f"{fecha}_{hora}"
+        nombre_base = f"{fecha}"
         
         # Saneamiento: Reemplazamos : y / por guiones para que sea un nombre de archivo válido
         nombre_seguro = nombre_base.replace(':', '-').replace('/', '-').replace(' ', '_')
