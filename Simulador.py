@@ -7,10 +7,9 @@
 # Descripción: Simulador de datos de consumo energético para múltiples puntos de medición,    *
 # con capacidad de envío a Google Firestore.tanto en tiempo real como en modo acelerado.      *
 # Creado por: Tec. René Mauricio Góchez Chicas.                                               *
-# Versión: 4.0.0                                                                              *
+# Versión: 4.1.0                                                                              *
 # Modificaciones:                                                                             *
-#       su cambio libreria a una mas actal google-cloud-storage dejamos de usar gcloud        *
-
+#       se agego un minimo y maximo de datos apra cada dato simulado
 # Apoyo de GEMINI para edicion y correcciones y GEMINI para estructura, funciones y clases.*
 #                                                                                             *
 # # NOTA: Requiere instalar firebase-admin y tener las credenciales adecuadas.                *
@@ -218,10 +217,21 @@ class SimulatorApp:
         tab_control.add(self.tab_logs, text='[ LOGS ]')
         tab_control.pack(expand=1, fill="both")
 
-        # Botones de control
+        # Panel de Configuración y Botones
         btn_frame = ttk.Frame(self.tab_main)
         btn_frame.pack(pady=10)
-        self.btn_start = ttk.Button(btn_frame, text="▶ INICIAR", command=self.start_simulation)
+
+        ttk.Label(btn_frame, text="Mín:").pack(side="left", padx=2)
+        self.min_val = ttk.Entry(btn_frame, width=5)
+        self.min_val.insert(0, "10")
+        self.min_val.pack(side="left", padx=5)
+
+        ttk.Label(btn_frame, text="Máx:").pack(side="left", padx=2)
+        self.max_val = ttk.Entry(btn_frame, width=5)
+        self.max_val.insert(0, "100")
+        self.max_val.pack(side="left", padx=5)
+
+        self.btn_start = ttk.Button(btn_frame, text="▶ INICIAR SIMULACIÓN", command=self.start_simulation)
         self.btn_start.pack(side="left", padx=10)
         self.btn_stop = ttk.Button(btn_frame, text="⏹ PARAR", command=self.stop_simulation, state="disabled")
         self.btn_stop.pack(side="left", padx=10)
@@ -246,10 +256,20 @@ class SimulatorApp:
 
     def run_process(self):
         while not self.stop_event.is_set():
+            try:
+                v_min = float(self.min_val.get())
+                v_max = float(self.max_val.get())
+            except ValueError:
+                self.log_message("⚠️ Error: Valores Mín/Máx deben ser numéricos.")
+                v_min, v_max = 10, 100
+
             batch = []
             now = datetime.now()
             for pid in PUNTOS_ID:
-                val = self.engine.simular_valor(pid, now.hour)
+                # Sobrescribimos la configuración local con los valores de la UI
+                cfg = self.engine.config[pid][now.hour % 24]
+                val = round(random.uniform(v_min, v_max), 2) if cfg["estado"] != "inactivo" else 0
+                
                 batch.append({"id_punto": pid, "consumo_kwh": val, "fecha": self.engine.get_formatted_date(now)})
             
             self.engine.enviar_datos(batch)
