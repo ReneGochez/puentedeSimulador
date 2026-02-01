@@ -147,6 +147,14 @@ class LoginWindow:
         self.root.title("ACCESO NUBE VERDE")
         self.root.geometry("400x350")
         aplicar_tema(self.root)
+
+        # Centrar ventana en pantalla
+        self.root.update_idletasks()
+        width = self.root.winfo_width()
+        height = self.root.winfo_height()
+        x = (self.root.winfo_screenwidth() // 2) - (width // 2)
+        y = (self.root.winfo_screenheight() // 2) - (height // 2)
+        self.root.geometry(f'{width}x{height}+{x}+{y}')
         
         # Inicializar Pyrebase para la autenticación
         self.firebase_auth = pyrebase.initialize_app(FIREBASE_CONFIG).auth()
@@ -215,10 +223,14 @@ class SimulatorApp:
         self.tab_logs = ttk.Frame(tab_control)
         tab_control.add(self.tab_main, text='[ EJECUCIÓN ]')
         tab_control.add(self.tab_logs, text='[ LOGS ]')
-        tab_control.pack(expand=1, fill="both")
+        tab_control.pack(expand=1, fill="both", side="top")
 
-        # Panel de Configuración y Botones
-        btn_frame = ttk.Frame(self.tab_main)
+        # --- Panel Superior: Control General ---
+        top_frame = ttk.Frame(self.tab_main)
+        top_frame.pack(fill="x", padx=10, pady=5)
+
+        # Botones de Control
+        btn_frame = ttk.LabelFrame(top_frame, text=" Control Maestro ")
         btn_frame.pack(pady=10)
 
         ttk.Label(btn_frame, text="Mín:").pack(side="left", padx=2)
@@ -232,7 +244,7 @@ class SimulatorApp:
         self.max_val.pack(side="left", padx=5)
 
         # Indicador de estado
-        self.lbl_status_led = ttk.Label(btn_frame, text=" ● ", foreground="red", font=("Consolas", 14))
+        self.lbl_status_led = ttk.Label(btn_frame, text=" ● ", foreground="red", font=("Consolas", 52))
         self.lbl_status_led.pack(side="left", padx=5)
 
         self.btn_start = ttk.Button(btn_frame, text="▶ INICIAR SIMULACIÓN", command=self.start_simulation)
@@ -244,6 +256,33 @@ class SimulatorApp:
         self.btn_exit = ttk.Button(btn_frame, text="✖ SALIR", command=self.confirm_exit)
         self.btn_exit.pack(side="left", padx=10)
 
+        # --- Panel Central: Configuración Individual ---
+        config_frame = ttk.LabelFrame(self.tab_main, text=" Configuración por Punto de Medición ")
+        config_frame.pack(fill="x", padx=10, pady=5)
+
+        self.individual_configs = {}
+        for i, pid in enumerate(PUNTOS_ID):
+            row = i // 6
+            col = (i % 6) * 3
+            ttk.Label(config_frame, text=f"{pid}:").grid(row=row, column=col, padx=2, pady=2)
+            
+            min_ent = ttk.Entry(config_frame, width=5)
+            min_ent.insert(0, "10")
+            min_ent.grid(row=row, column=col+1, padx=2)
+            
+            max_ent = ttk.Entry(config_frame, width=5)
+            max_ent.insert(0, "100")
+            max_ent.grid(row=row, column=col+2, padx=2)
+            
+            self.individual_configs[pid] = {"min": min_ent, "max": max_ent}
+
+        # Botones de acción masiva
+        bulk_frame = ttk.Frame(self.tab_main)
+        bulk_frame.pack(fill="x", padx=10)
+        ttk.Button(bulk_frame, text="APLICAR MAESTRO A TODOS", command=self.apply_master_to_all).pack(side="left", padx=5)
+        ttk.Button(bulk_frame, text="RESETEAR TODOS", command=self.reset_all_to_master).pack(side="left", padx=5)
+
+        # --- Panel Inferior: Tabla ---
         self.monitor_tree = ttk.Treeview(self.tab_main, columns=("ID", "Valor", "Hora"), show="headings")
         self.monitor_tree.heading("ID", text="PUNTO"); self.monitor_tree.heading("Valor", text="kWh"); self.monitor_tree.heading("Hora", text="FECHA")
         self.monitor_tree.pack(fill="both", expand=True, padx=10, pady=10)
@@ -256,10 +295,56 @@ class SimulatorApp:
             self.stop_event.set()
             self.root.destroy()
 
+    def validate_ranges(self):
+        errores = []
+        m_min = self.min_val.get()
+        m_max = self.max_val.get()
+        
+        for pid, entries in self.individual_configs.items():
+            try:
+                v_min = float(entries["min"].get())
+                v_max = float(entries["max"].get())
+                
+                if v_min < 0 or v_max < 0 or v_min > 10000 or v_max > 10000 or v_min > v_max:
+                    raise ValueError
+            except ValueError:
+                errores.append(pid)
+                entries["min"].delete(0, tk.END)
+                entries["min"].insert(0, m_min)
+                entries["max"].delete(0, tk.END)
+                entries["max"].insert(0, m_max)
+        return errores
+
+    def apply_master_to_all(self):
+        m_min = self.min_val.get()
+        m_max = self.max_val.get()
+        for pid in self.individual_configs:
+            self.individual_configs[pid]["min"].delete(0, tk.END)
+            self.individual_configs[pid]["min"].insert(0, m_min)
+            self.individual_configs[pid]["max"].delete(0, tk.END)
+            self.individual_configs[pid]["max"].insert(0, m_max)
+        self.log_message("Valores maestros aplicados a todos los puntos.")
+
+    def reset_all_to_master(self):
+        self.min_val.delete(0, tk.END); self.min_val.insert(0, "10")
+        self.max_val.delete(0, tk.END); self.max_val.insert(0, "100")
+        self.apply_master_to_all()
+        self.log_message("Reinicio total a valores de fábrica (10-100).")
+
     def start_simulation(self):
+        errores = self.validate_ranges()
+        if errores:
+            msg = "Valores inválidos detectados (negativos, >10000 o texto).\n"
+            msg += f"Se resetearon los puntos: {', '.join(errores)} a valores maestros."
+            messagebox.showerror("Error de Validación", msg)
+            self.log_message(f"⚠️ Error en: {', '.join(errores)}. Reseteados.")
+            return
+
         self.stop_event.clear()
         self.btn_start.config(state="disabled")
         self.btn_stop.config(state="normal")
+        self.min_val.config(state="disabled")
+        self.max_val.config(state="disabled")
         self.lbl_status_led.config(foreground="#00FF41") # Verde
         threading.Thread(target=self.run_process, daemon=True).start()
 
@@ -267,22 +352,24 @@ class SimulatorApp:
         self.stop_event.set()
         self.btn_start.config(state="normal")
         self.btn_stop.config(state="disabled")
+        self.min_val.config(state="normal")
+        self.max_val.config(state="normal")
         self.lbl_status_led.config(foreground="red")
 
     def run_process(self):
         while not self.stop_event.is_set():
-            try:
-                v_min = float(self.min_val.get())
-                v_max = float(self.max_val.get())
-            except ValueError:
-                self.log_message("⚠️ Error: Valores Mín/Máx deben ser numéricos.")
-                v_min, v_max = 10, 100
-
             batch = []
             now = datetime.now()
             for pid in PUNTOS_ID:
-                # Sobrescribimos la configuración local con los valores de la UI
+                try:
+                    v_min = float(self.individual_configs[pid]["min"].get())
+                    v_max = float(self.individual_configs[pid]["max"].get())
+                except:
+                    v_min, v_max = 10, 100
+
                 cfg = self.engine.config[pid][now.hour % 24]
+                
+                # Usar los valores individuales de la UI
                 val = round(random.uniform(v_min, v_max), 2) if cfg["estado"] != "inactivo" else 0
                 
                 batch.append({"id_punto": pid, "consumo_kwh": val, "fecha": self.engine.get_formatted_date(now)})
