@@ -231,10 +231,18 @@ class SimulatorApp:
         self.max_val.insert(0, "100")
         self.max_val.pack(side="left", padx=5)
 
+        # Indicador de estado
+        self.lbl_status_led = ttk.Label(btn_frame, text=" ● ", foreground="red", font=("Consolas", 14))
+        self.lbl_status_led.pack(side="left", padx=5)
+
         self.btn_start = ttk.Button(btn_frame, text="▶ INICIAR SIMULACIÓN", command=self.start_simulation)
         self.btn_start.pack(side="left", padx=10)
         self.btn_stop = ttk.Button(btn_frame, text="⏹ PARAR", command=self.stop_simulation, state="disabled")
         self.btn_stop.pack(side="left", padx=10)
+
+        # Botón Salir
+        self.btn_exit = ttk.Button(btn_frame, text="✖ SALIR", command=self.confirm_exit)
+        self.btn_exit.pack(side="left", padx=10)
 
         self.monitor_tree = ttk.Treeview(self.tab_main, columns=("ID", "Valor", "Hora"), show="headings")
         self.monitor_tree.heading("ID", text="PUNTO"); self.monitor_tree.heading("Valor", text="kWh"); self.monitor_tree.heading("Hora", text="FECHA")
@@ -243,16 +251,23 @@ class SimulatorApp:
         self.log_area = scrolledtext.ScrolledText(self.tab_logs, state='disabled', bg="black", fg="#00FF41")
         self.log_area.pack(fill="both", expand=True)
 
+    def confirm_exit(self):
+        if messagebox.askokcancel("Confirmar Salida", "¿Desea cerrar el simulador?"):
+            self.stop_event.set()
+            self.root.destroy()
+
     def start_simulation(self):
         self.stop_event.clear()
         self.btn_start.config(state="disabled")
         self.btn_stop.config(state="normal")
+        self.lbl_status_led.config(foreground="#00FF41") # Verde
         threading.Thread(target=self.run_process, daemon=True).start()
 
     def stop_simulation(self):
         self.stop_event.set()
         self.btn_start.config(state="normal")
         self.btn_stop.config(state="disabled")
+        self.lbl_status_led.config(foreground="red")
 
     def run_process(self):
         while not self.stop_event.is_set():
