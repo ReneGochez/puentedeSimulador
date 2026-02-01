@@ -7,26 +7,28 @@
 # Descripción: Simulador de datos de consumo energético para múltiples puntos de medición,    *
 # con capacidad de envío a Google Firestore.tanto en tiempo real como en modo acelerado.      *
 # Creado por: Tec. René Mauricio Góchez Chicas.                                               *
-# Versión: 4.1.0                                                                              *
+# Versión: 4.3.0                                                                              *
 # Modificaciones:                                                                             *
 #                se ajusto los parametros y la forma de ver en pantallas                      *
 # Apoyo de GEMINI para edicion y correcciones y GEMINI para estructura, funciones y clases.   *
 #                                                                                             *
 # # NOTA: Requiere instalar firebase-admin y tener las credenciales adecuadas.                *
 # *********************************************************************************************
-
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext, simpledialog
 import json
 import random
 import time
 import threading
+import os
 
 from datetime import datetime, timedelta
 import firebase_admin
 from firebase_admin import credentials, firestore
 from google.cloud import storage
-import pyrebase  # <--- NUEVA LIBRERÍA PARA AUTH DE USU
+import requests  # Para autenticación vía REST API
 # --- CONFIGURACIÓN GLOBAL ---
 #  Configuración del proyecto
 # --- FIREBASE ---
@@ -42,7 +44,6 @@ FIREBASE_CONFIG = {
 }
 
 
-FIREBASE_CRED_PATH = 'serviceAccountKey.json'
 COLECCION_FIRESTORE = 'lecturas'
 BUCKET_NAME = 'nube-verde-monitor.appspot.com'
 FILE_SENT = 'datos_enviados.json'
@@ -94,8 +95,8 @@ class SimulationEngine:
     def init_firestore(self):
         if not firebase_admin._apps:
             try:
-                cred = credentials.Certificate(FIREBASE_CRED_PATH)
-                firebase_admin.initialize_app(cred)
+                # Inicialización usando Application Default Credentials (ADC) o configuración de entorno
+                firebase_admin.initialize_app()
                 return firestore.client()
             except Exception as e:
                 self.log(f"OFFLINE: {e}")
@@ -104,8 +105,7 @@ class SimulationEngine:
 
     def init_storage(self):
         try:
-            # Utiliza las mismas credenciales que Firestore
-            return storage.Client.from_service_account_json(FIREBASE_CRED_PATH)
+            return storage.Client()
         except Exception as e:
             self.log(f"STORAGE ERROR: {e}")
             return None
@@ -168,9 +168,6 @@ class LoginWindow:
         y = (self.root.winfo_screenheight() // 2) - (height // 2)
         self.root.geometry(f'{width}x{height}+{x}+{y}')
         
-        # Inicializar Pyrebase para la autenticación
-        self.firebase_auth = pyrebase.initialize_app(FIREBASE_CONFIG).auth()
-
         frame = ttk.Frame(root, padding=20)
         frame.pack(expand=True)
 
@@ -200,9 +197,19 @@ class LoginWindow:
         self.root.update()
 
         try:
-            # Validar con Firebase Auth
-            user = self.firebase_auth.sign_in_with_email_and_password(email, password)
-            # Si tiene éxito, pasamos a la app principal
+            # Autenticación usando la REST API oficial de Firebase
+            auth_url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={FIREBASE_CONFIG['apiKey']}"
+            payload = {
+                "email": email,
+                "password": password,
+                "returnSecureToken": True
+            }
+            response = requests.post(auth_url, json=payload)
+            data = response.json()
+
+            if "error" in data:
+                raise Exception(data["error"]["message"])
+
             messagebox.showinfo("Éxito", "Token validado correctamente.")
             self.on_success()
         except Exception as e:
@@ -452,7 +459,12 @@ class SimulatorApp:
                 # Usar los valores individuales de la UI
                 val = round(random.uniform(v_min, v_max), 2) if cfg["estado"] != "inactivo" else 0
                 
-                batch.append({"id_punto": pid, "consumo_kwh": val, "fecha": self.engine.get_formatted_date(now)})
+                batch.append({
+                    "id_punto": pid, 
+                    "consumo_kwh": val, 
+                    "fecha": self.engine.get_formatted_date(now),
+                    "timestamp": now.isoformat()
+                })
             
             if self.dest_var.get() == "DB":
                 self.engine.enviar_datos(batch)
@@ -487,7 +499,12 @@ class SimulatorApp:
                         v_min, v_max = 10, 100
 
                     val = round(random.uniform(v_min, v_max), 2)
-                    batch.append({"id_punto": pid, "consumo_kwh": val, "fecha": self.engine.get_formatted_date(fecha_simulada)})
+                    batch.append({
+                        "id_punto": pid, 
+                        "consumo_kwh": val, 
+                        "fecha": self.engine.get_formatted_date(fecha_simulada),
+                        "timestamp": fecha_simulada.isoformat()
+                    })
 
                 if self.dest_var.get() == "DB":
                     self.engine.enviar_datos(batch)
