@@ -9,15 +9,15 @@
 # Creado por: Tec. René Mauricio Góchez Chicas.                                               *
 # Versión: 4.1.0                                                                              *
 # Modificaciones:                                                                             *
-#       se agego un minimo y maximo de datos apra cada dato simulado
-# Apoyo de GEMINI para edicion y correcciones y GEMINI para estructura, funciones y clases.*
+#                se coloco la opcion de guardar directamente en la base de datos o un archivo *
+# Apoyo de GEMINI para edicion y correcciones y GEMINI para estructura, funciones y clases.   *
 #                                                                                             *
 # # NOTA: Requiere instalar firebase-admin y tener las credenciales adecuadas.                *
 # *********************************************************************************************
 
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext, simpledialog
-
+import json
 import random
 import time
 import threading
@@ -83,6 +83,8 @@ class SimulationEngine:
         self.storage_client = self.init_storage()
         self.running = False
         self.config = {}
+        self.session_file = None
+        self.session_data = []
         self.init_default_config()
 
     def init_default_config(self):
@@ -124,6 +126,17 @@ class SimulationEngine:
         elif metodo == "probabilistico":
             return round(random.uniform(0, cfg["max"]), 2) if random.uniform(0, 100) <= cfg["prob"] else 0
         return 0
+
+    def guardar_en_archivo(self, data_batch):
+        try:
+            self.session_data.extend(data_batch)
+            with open(self.session_file, 'w', encoding='utf-8') as f:
+                json.dump(self.session_data, f, indent=4, ensure_ascii=False)
+            self.log(f"💾 Guardado lote en {self.session_file}")
+            return True
+        except Exception as e:
+            self.log(f"❌ ERROR ARCHIVO: {e}")
+            return False
 
     def enviar_datos(self, data_batch):
         if not self.db: return False
@@ -234,14 +247,19 @@ class SimulatorApp:
         btn_frame.pack(pady=10)
 
         ttk.Label(btn_frame, text="Mín:").pack(side="left", padx=2)
-        self.min_val = ttk.Entry(btn_frame, width=5)
+        self.min_val = ttk.Entry(btn_frame, width=8)
         self.min_val.insert(0, "10")
         self.min_val.pack(side="left", padx=5)
 
         ttk.Label(btn_frame, text="Máx:").pack(side="left", padx=2)
-        self.max_val = ttk.Entry(btn_frame, width=5)
+        self.max_val = ttk.Entry(btn_frame, width=8)
         self.max_val.insert(0, "100")
         self.max_val.pack(side="left", padx=5)
+
+        ttk.Label(btn_frame, text="Destino:").pack(side="left", padx=2)
+        self.dest_var = tk.StringVar(value="DB")
+        self.combo_dest = ttk.Combobox(btn_frame, textvariable=self.dest_var, values=["DB", "ARCHIVO"], width=10, state="readonly")
+        self.combo_dest.pack(side="left", padx=5)
 
         # Indicador de estado
         self.lbl_status_led = ttk.Label(btn_frame, text=" ● ", foreground="red", font=("Consolas", 52))
@@ -260,26 +278,29 @@ class SimulatorApp:
         config_frame = ttk.LabelFrame(self.tab_main, text=" Configuración por Punto de Medición ")
         config_frame.pack(fill="x", padx=10, pady=5)
 
+        for col_idx in range(18): # 6 puntos * 3 columnas cada uno
+            config_frame.columnconfigure(col_idx, weight=1)
+
         self.individual_configs = {}
         for i, pid in enumerate(PUNTOS_ID):
-            row = i // 6
+            row = 0 if i < 6 else 2 # Fila 0 para los primeros 6, Fila 2 para los siguientes (deja Fila 1 libre)
             col = (i % 6) * 3
-            ttk.Label(config_frame, text=f"{pid}:").grid(row=row, column=col, padx=2, pady=2)
+            ttk.Label(config_frame, text=f"{pid}:").grid(row=row, column=col, padx=2, pady=5, sticky="e")
             
-            min_ent = ttk.Entry(config_frame, width=5)
+            min_ent = ttk.Entry(config_frame, width=8)
             min_ent.insert(0, "10")
-            min_ent.grid(row=row, column=col+1, padx=2)
+            min_ent.grid(row=row, column=col+1, padx=2, pady=5, sticky="w")
             
-            max_ent = ttk.Entry(config_frame, width=5)
+            max_ent = ttk.Entry(config_frame, width=8)
             max_ent.insert(0, "100")
-            max_ent.grid(row=row, column=col+2, padx=2)
+            max_ent.grid(row=row, column=col+2, padx=2, pady=5, sticky="w")
             
             self.individual_configs[pid] = {"min": min_ent, "max": max_ent}
 
         # Botones de acción masiva
         bulk_frame = ttk.Frame(self.tab_main)
         bulk_frame.pack(fill="x", padx=10)
-        ttk.Button(bulk_frame, text="APLICAR MAESTRO A TODOS", command=self.apply_master_to_all).pack(side="left", padx=5)
+        ttk.Button(bulk_frame, text="APLICAR A TODOS", command=self.apply_master_to_all).pack(side="left", padx=5)
         ttk.Button(bulk_frame, text="RESETEAR TODOS", command=self.reset_all_to_master).pack(side="left", padx=5)
 
         # --- Panel Inferior: Tabla ---
@@ -340,11 +361,18 @@ class SimulatorApp:
             self.log_message(f"⚠️ Error en: {', '.join(errores)}. Reseteados.")
             return
 
+        # Configurar archivo de sesión si no existe
+        if not self.engine.session_file:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            self.engine.session_file = f"simulacion_{timestamp}.json"
+            self.engine.session_data = []
+
         self.stop_event.clear()
         self.btn_start.config(state="disabled")
         self.btn_stop.config(state="normal")
         self.min_val.config(state="disabled")
         self.max_val.config(state="disabled")
+        self.combo_dest.config(state="disabled")
         self.lbl_status_led.config(foreground="#00FF41") # Verde
         threading.Thread(target=self.run_process, daemon=True).start()
 
@@ -354,6 +382,7 @@ class SimulatorApp:
         self.btn_stop.config(state="disabled")
         self.min_val.config(state="normal")
         self.max_val.config(state="normal")
+        self.combo_dest.config(state="readonly")
         self.lbl_status_led.config(foreground="red")
 
     def run_process(self):
@@ -374,7 +403,11 @@ class SimulatorApp:
                 
                 batch.append({"id_punto": pid, "consumo_kwh": val, "fecha": self.engine.get_formatted_date(now)})
             
-            self.engine.enviar_datos(batch)
+            if self.dest_var.get() == "DB":
+                self.engine.enviar_datos(batch)
+            else:
+                self.engine.guardar_en_archivo(batch)
+
             self.root.after(0, self.update_table, batch)
             time.sleep(10)
 
