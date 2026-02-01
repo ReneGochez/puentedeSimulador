@@ -11,7 +11,7 @@
 # Modificaciones:                                                                             *
 #       su cambio libreria a una mas actal google-cloud-storage dejamos de usar gcloud        *
 
-# Apoyo de ChatGPT-4 para edicion y correcciones y GEMINI para estructura, funciones y clases.*
+# Apoyo de GEMINI para edicion y correcciones y GEMINI para estructura, funciones y clases.*
 #                                                                                             *
 # # NOTA: Requiere instalar firebase-admin y tener las credenciales adecuadas.                *
 # *********************************************************************************************
@@ -40,7 +40,7 @@ FIREBASE_CONFIG = {
     "storageBucket": "nube-verde-monitor.firebasestorage.app",
     "messagingSenderId": "694437356246",
     "appId": "1:694437356246:web:0b6792fd2a913727739f77",
-    "databaseURL": "" 
+    "databaseURL": "https://nube-verde-monitor.firebaseio.com" 
 }
 
 
