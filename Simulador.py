@@ -26,8 +26,7 @@ from datetime import datetime, timedelta
 import firebase_admin
 from firebase_admin import credentials, firestore
 from google.cloud import storage
-import pyrebase  # <--- NUEVA LIBRERÍA PARA AUTH DE USUARIO
-
+import pyrebase  # <--- NUEVA LIBRERÍA PARA AUTH DE USU
 # --- CONFIGURACIÓN GLOBAL ---
 #  Configuración del proyecto
 # --- FIREBASE ---
@@ -221,7 +220,12 @@ class SimulatorApp:
         
         self.engine = SimulationEngine(self.log_message)
         self.stop_event = threading.Event()
+        self.intervalo_minutos = tk.IntVar(value=1)
+        self.horas_aceleradas = tk.IntVar(value=1)
         self.setup_ui()
+        
+        # Capturar el evento de cierre de la ventana (X de la barra superior)
+        self.root.protocol("WM_DELETE_WINDOW", self.confirm_exit)
 
     def log_message(self, msg):
         ts = datetime.now().strftime("%H:%M:%S")
@@ -257,9 +261,21 @@ class SimulatorApp:
         self.max_val.pack(side="left", padx=5)
 
         ttk.Label(btn_frame, text="Destino:").pack(side="left", padx=2)
-        self.dest_var = tk.StringVar(value="DB")
-        self.combo_dest = ttk.Combobox(btn_frame, textvariable=self.dest_var, values=["DB", "ARCHIVO"], width=10, state="readonly")
+        self.dest_var = tk.StringVar(value="ARCHIVO")
+        self.combo_dest = ttk.Combobox(btn_frame, textvariable=self.dest_var, values=["ARCHIVO", "DB"], width=10, state="readonly")
         self.combo_dest.pack(side="left", padx=5)
+
+        ttk.Label(btn_frame, text="Intervalo (min):").pack(side="left", padx=2)
+        self.spin_intervalo = ttk.Spinbox(btn_frame, from_=1, to=60, textvariable=self.intervalo_minutos, width=5)
+        self.spin_intervalo.pack(side="left", padx=5)
+
+        # --- Botón Acelerado ---
+        accel_frame = ttk.LabelFrame(top_frame, text=" Simulación Acelerada (Histórica) ")
+        accel_frame.pack(fill="x", padx=10, pady=5)
+        ttk.Label(accel_frame, text="Generar próximas:").pack(side="left", padx=5)
+        ttk.Spinbox(accel_frame, from_=1, to=24, textvariable=self.horas_aceleradas, width=5).pack(side="left", padx=5)
+        ttk.Label(accel_frame, text="horas").pack(side="left", padx=5)
+        ttk.Button(accel_frame, text="⚡ GENERAR RÁPIDO", command=self.run_accelerated).pack(side="left", padx=20)
 
         # Indicador de estado
         self.lbl_status_led = ttk.Label(btn_frame, text=" ● ", foreground="red", font=("Consolas", 52))
@@ -304,9 +320,36 @@ class SimulatorApp:
         ttk.Button(bulk_frame, text="RESETEAR TODOS", command=self.reset_all_to_master).pack(side="left", padx=5)
 
         # --- Panel Inferior: Tabla ---
-        self.monitor_tree = ttk.Treeview(self.tab_main, columns=("ID", "Valor", "Hora"), show="headings")
-        self.monitor_tree.heading("ID", text="PUNTO"); self.monitor_tree.heading("Valor", text="kWh"); self.monitor_tree.heading("Hora", text="FECHA")
-        self.monitor_tree.pack(fill="both", expand=True, padx=10, pady=10)
+        tree_frame = ttk.Frame(self.tab_main)
+        tree_frame.pack(fill="both", expand=True, padx=10, pady=10)
+
+        self.monitor_tree = ttk.Treeview(tree_frame, columns=("ID", "Valor", "Hora"), show="headings")
+        self.monitor_tree.heading("ID", text="PUNTO", command=lambda: self.sort_column("ID", False))
+        self.monitor_tree.heading("Valor", text="kWh")
+        self.monitor_tree.heading("Hora", text="FECHA", command=lambda: self.sort_column("Hora", True))
+        
+        scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=self.monitor_tree.yview)
+        self.monitor_tree.configure(yscrollcommand=scrollbar.set)
+        
+        self.monitor_tree.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        # --- Panel de Control Inferior (Filtros y Ordenamiento) ---
+        filter_frame = ttk.Frame(self.tab_main)
+        filter_frame.pack(fill="x", padx=10, pady=0, side="bottom")
+        
+        ttk.Button(filter_frame, text="APLICAR FILTRO", command=self.apply_filter).pack(side="right", padx=5)
+        self.filter_var = tk.StringVar(value="TODOS")
+        combo_filter = ttk.Combobox(filter_frame, textvariable=self.filter_var, values=["TODOS"] + PUNTOS_ID, state="readonly", width=15)
+        combo_filter.pack(side="right", padx=5)
+        ttk.Label(filter_frame, text="Filtrar vista:").pack(side="right", padx=5)
+
+        # Botones de ordenamiento (Movidos al fondo)
+        sort_frame = ttk.Frame(filter_frame)
+        sort_frame.pack(side="left")
+        ttk.Label(sort_frame, text="Ordenar por:").pack(side="left", padx=5)
+        ttk.Button(sort_frame, text="PUNTO (ID)", command=lambda: self.sort_column("ID", False)).pack(side="left", padx=2)
+        ttk.Button(sort_frame, text="GENERACIÓN (FECHA)", command=lambda: self.sort_column("Hora", True)).pack(side="left", padx=2)
 
         self.log_area = scrolledtext.ScrolledText(self.tab_logs, state='disabled', bg="black", fg="#00FF41")
         self.log_area.pack(fill="both", expand=True)
@@ -314,6 +357,11 @@ class SimulatorApp:
     def confirm_exit(self):
         if messagebox.askokcancel("Confirmar Salida", "¿Desea cerrar el simulador?"):
             self.stop_event.set()
+            # Asegurar que los datos en memoria se guarden antes de cerrar
+            if self.engine.session_file and self.engine.session_data:
+                try:
+                    self.engine.guardar_en_archivo([])
+                except: pass
             self.root.destroy()
 
     def validate_ranges(self):
@@ -372,6 +420,7 @@ class SimulatorApp:
         self.btn_stop.config(state="normal")
         self.min_val.config(state="disabled")
         self.max_val.config(state="disabled")
+        self.spin_intervalo.config(state="disabled")
         self.combo_dest.config(state="disabled")
         self.lbl_status_led.config(foreground="#00FF41") # Verde
         threading.Thread(target=self.run_process, daemon=True).start()
@@ -382,6 +431,7 @@ class SimulatorApp:
         self.btn_stop.config(state="disabled")
         self.min_val.config(state="normal")
         self.max_val.config(state="normal")
+        self.spin_intervalo.config(state="normal")
         self.combo_dest.config(state="readonly")
         self.lbl_status_led.config(foreground="red")
 
@@ -409,12 +459,77 @@ class SimulatorApp:
                 self.engine.guardar_en_archivo(batch)
 
             self.root.after(0, self.update_table, batch)
-            time.sleep(10)
+            time.sleep(self.intervalo_minutos.get() * 60)
+
+    def run_accelerated(self):
+        horas = self.horas_aceleradas.get()
+        intervalo = self.intervalo_minutos.get()
+        total_minutos = horas * 60
+        total_pasos = max(1, total_minutos // intervalo)
+
+        self.log_message(f"🚀 Iniciando ráfaga histórica: {horas}h cada {intervalo}min ({total_pasos} lotes)")
+
+        if not self.engine.session_file:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            self.engine.session_file = f"simulacion_{timestamp}.json"
+            self.engine.session_data = []
+
+        def worker():
+            fecha_simulada = datetime.now()
+            for _ in range(total_pasos):
+                batch = []
+                for pid in PUNTOS_ID:
+                    try:
+                        v_min = float(self.individual_configs[pid]["min"].get())
+                        v_max = float(self.individual_configs[pid]["max"].get())
+                    except:
+                        v_min, v_max = 10, 100
+
+                    val = round(random.uniform(v_min, v_max), 2)
+                    batch.append({"id_punto": pid, "consumo_kwh": val, "fecha": self.engine.get_formatted_date(fecha_simulada)})
+
+                if self.dest_var.get() == "DB":
+                    self.engine.enviar_datos(batch)
+                self.engine.guardar_en_archivo(batch)
+
+                self.root.after(0, self.update_table, batch)
+                fecha_simulada += timedelta(minutes=intervalo)
+            self.log_message(f"✅ Simulación acelerada completada. Datos en {self.engine.session_file}")
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def sort_column(self, col, reverse):
+        if col == "Hora":
+            respuesta = messagebox.askyesno("Orden de Fecha", "¿Desea orden descendente? (Si=Descendente, No=Ascendente)")
+            reverse = respuesta
+
+        l = [(self.monitor_tree.set(k, col), k) for k in self.monitor_tree.get_children('')]
+        # Intentar ordenar numéricamente si es posible, si no, alfabéticamente
+        try:
+            l.sort(key=lambda t: float(t[0]), reverse=reverse)
+        except ValueError:
+            l.sort(reverse=reverse)
+
+        for index, (val, k) in enumerate(l):
+            self.monitor_tree.move(k, '', index)
+
+    def apply_filter(self):
+        filtro = self.filter_var.get()
+        for item in self.monitor_tree.get_children():
+            self.monitor_tree.delete(item)
+        
+        # Recargar desde la data de sesión filtrando
+        for entry in self.engine.session_data:
+            if filtro == "TODOS" or entry["id_punto"] == filtro:
+                self.monitor_tree.insert("", "end", values=(entry["id_punto"], entry["consumo_kwh"], entry["fecha"]))
+        self.log_message(f"Vista filtrada por: {filtro}")
 
     def update_table(self, batch):
-        for i in self.monitor_tree.get_children(): self.monitor_tree.delete(i)
+        filtro = self.filter_var.get()
         for item in batch:
-            self.monitor_tree.insert("", "end", values=(item["id_punto"], item["consumo_kwh"], item["fecha"]))
+            if filtro == "TODOS" or item["id_punto"] == filtro:
+                self.monitor_tree.insert("", "end", values=(item["id_punto"], item["consumo_kwh"], item["fecha"]))
+        self.monitor_tree.yview_moveto(1) # Auto-scroll to bottom
 
 # --- ARRANQUE ---
 

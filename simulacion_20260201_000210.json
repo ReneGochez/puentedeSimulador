@@ -1,0 +1,2702 @@
+[
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 76.38,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 66.55,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 42.27,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 36.29,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 65.85,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 85.04,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 88.23,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 56.59,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 14.34,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 84.28,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 38.41,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 64.98,
+        "fecha": "1 de febrero de 2026 a las 12:02:10 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 69.23,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 14.14,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 83.42,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 96.71,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 12.01,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 92.58,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 77.62,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 95.36,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 95.43,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 41.86,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 59.47,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 99.61,
+        "fecha": "1 de febrero de 2026 a las 12:02:15 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 71.21,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 89.72,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 91.66,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 81.84,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 53.89,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 19.63,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 44.67,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 69.02,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 24.36,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 67.73,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 27.38,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 16.41,
+        "fecha": "1 de febrero de 2026 a las 12:02:17 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 93.75,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 63.18,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 73.85,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 38.45,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 59.24,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 74.4,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 19.23,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 65.24,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 52.46,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 42.28,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 67.55,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 69.56,
+        "fecha": "1 de febrero de 2026 a las 12:03:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 50.48,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 71.62,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 26.96,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 95.4,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 75.96,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 16.52,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 76.78,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 26.34,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 86.1,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 20.44,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 66.75,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 86.25,
+        "fecha": "1 de febrero de 2026 a las 12:31:18 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 47.77,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 28.81,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 70.19,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 28.74,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 94.28,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 23.08,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 71.93,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 33.49,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 64.45,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 69.73,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 29.6,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 96.83,
+        "fecha": "1 de febrero de 2026 a las 12:03:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 61.24,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 98.69,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 55.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 46.12,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 60.35,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 93.53,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 61.31,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 13.27,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 35.93,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 30.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 27.17,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 38.04,
+        "fecha": "1 de febrero de 2026 a las 12:31:22 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 37.05,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 68.96,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 23.82,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 93.54,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 35.18,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 21.3,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 84.43,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 82.22,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 15.04,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 19.74,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 75.15,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 47.78,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 38.09,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 55.5,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 74.02,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 96.0,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 25.3,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 59.34,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 61.06,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 78.47,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 98.19,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 77.11,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 89.47,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 69.28,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 21.81,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 99.16,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 80.15,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 89.46,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 61.92,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 32.26,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 26.09,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 76.25,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 58.41,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 36.52,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 80.71,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 76.3,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 45.89,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 44.72,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 90.99,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 59.82,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 52.19,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 77.78,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 41.33,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 81.25,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 30.01,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 83.06,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 45.66,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 84.36,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 28.39,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 62.71,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 33.39,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 31.95,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 12.55,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 45.12,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 59.91,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 32.78,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 94.35,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 11.94,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 82.72,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 18.97,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 70.6,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 53.13,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 11.78,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 98.32,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 33.17,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 68.55,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 38.25,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 28.52,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 43.38,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 45.7,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 62.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 13.16,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 32.1,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 58.58,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 23.62,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 76.81,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 42.91,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 76.78,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 85.13,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 82.22,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 57.95,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 29.47,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 67.99,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 85.76,
+        "fecha": "1 de febrero de 2026 a las 12:03:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 52.99,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 10.5,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 80.36,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 70.79,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 86.14,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 99.43,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 30.88,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 43.58,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 49.0,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 24.87,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 15.04,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 74.87,
+        "fecha": "1 de febrero de 2026 a las 12:31:23 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 83.34,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 82.85,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 85.53,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 22.68,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 57.84,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 36.14,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 53.4,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 47.92,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 49.46,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 28.16,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 89.79,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 81.45,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 65.47,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 39.37,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 91.72,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 28.11,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 68.6,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 91.18,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 59.59,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 20.42,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 79.79,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 96.4,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 78.76,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 23.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 14.94,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 12.1,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 54.81,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 99.42,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 10.94,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 53.68,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 48.54,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 20.07,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 77.7,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 85.32,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 86.68,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 90.57,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 38.67,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 88.48,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 75.24,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 37.16,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 90.98,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 10.21,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 35.47,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 65.6,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 61.64,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 25.22,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 18.2,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 77.44,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 21.14,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 83.93,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 38.74,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 79.32,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 50.54,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 21.43,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 88.36,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 37.42,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 72.06,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 95.79,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 32.03,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 97.27,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 16.43,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 77.29,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 17.18,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 70.61,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 35.27,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 73.05,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 82.76,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 48.83,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 69.02,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 62.74,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 57.09,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 75.46,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 61.75,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 52.73,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 50.97,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 54.15,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 91.42,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 77.58,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 40.8,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 53.41,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 68.56,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 62.74,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 24.54,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 69.86,
+        "fecha": "1 de febrero de 2026 a las 12:03:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 61.42,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 67.95,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 18.77,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 22.0,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 78.3,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 22.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 98.03,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 61.22,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 57.5,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 20.81,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 27.88,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 27.77,
+        "fecha": "1 de febrero de 2026 a las 12:31:24 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 41.54,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 39.69,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 88.33,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 92.47,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 65.37,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 12.71,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 96.19,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 61.61,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 82.03,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 84.75,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 16.93,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 98.07,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 10.63,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 58.56,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 89.31,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 53.84,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 37.02,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 38.29,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 95.56,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 11.74,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 27.81,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 18.32,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 53.17,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 21.46,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 22.16,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 29.98,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 18.03,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 52.06,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 33.34,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 93.81,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 36.62,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 12.38,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 50.08,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 23.84,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 90.99,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 60.25,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 18.56,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 81.6,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 72.32,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 95.51,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 17.5,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 72.11,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 97.89,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 22.1,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 31.63,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 56.48,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 75.79,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 62.94,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 26.61,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 37.13,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 75.0,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 13.08,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 17.21,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 73.17,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 10.26,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 13.16,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 41.59,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 92.59,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 39.36,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 50.11,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 64.18,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 90.59,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 92.7,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 31.8,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 45.4,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 59.44,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 91.13,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 76.13,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 32.7,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 30.58,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 75.06,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 61.32,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 61.86,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 77.7,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 31.27,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 95.14,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 40.03,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 73.71,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 16.91,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 21.9,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 66.08,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 69.52,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 38.91,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 54.15,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 16.31,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 36.67,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 65.56,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 31.8,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 46.9,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 80.21,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 22.34,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 42.29,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 75.71,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 54.45,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 81.22,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 99.97,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 69.42,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 81.4,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 14.21,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 31.55,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 49.14,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 62.66,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 71.79,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 53.43,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 72.62,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 63.52,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 34.07,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 85.82,
+        "fecha": "1 de febrero de 2026 a las 12:03:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 58.09,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 77.84,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 11.49,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 19.46,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 47.72,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 15.83,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 12.86,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 16.14,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 89.37,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 35.58,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 49.79,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 13.92,
+        "fecha": "1 de febrero de 2026 a las 12:31:25 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 91.61,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 27.3,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 47.0,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 79.42,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 29.27,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 30.99,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 19.42,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 11.73,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 44.39,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 52.59,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 46.0,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 73.77,
+        "fecha": "1 de febrero de 2026 a las 12:03:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 23.61,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 84.66,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 37.43,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 56.37,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 27.06,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 15.38,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 96.26,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 15.89,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 17.4,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 52.39,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 62.61,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 18.78,
+        "fecha": "1 de febrero de 2026 a las 12:31:46 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 83.36,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 56.65,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 55.13,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 73.06,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 77.88,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 21.81,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 80.62,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 62.17,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 25.31,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 49.8,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 62.43,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 33.51,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 99.37,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 80.69,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 30.44,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 14.42,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 85.98,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 57.0,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 35.1,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 41.68,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 15.89,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 37.77,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 71.33,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 23.96,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 56.16,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 61.45,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 22.27,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 27.41,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 58.16,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 35.07,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 52.74,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 20.59,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 27.79,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 29.19,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 87.12,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 98.02,
+        "fecha": "1 de febrero de 2026 a las 12:03:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 61.05,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 83.97,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 24.38,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 57.12,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 37.11,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 99.67,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 40.45,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 90.67,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 18.27,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 95.5,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 46.73,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 79.84,
+        "fecha": "1 de febrero de 2026 a las 12:31:47 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 83.8,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 94.33,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 52.05,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 86.19,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 72.26,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 96.07,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 79.63,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 28.57,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 83.0,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 44.87,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 35.35,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 92.05,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 22.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 67.19,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 11.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 52.78,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 29.3,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 53.12,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 49.45,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 39.7,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 25.86,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 51.01,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 73.61,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 97.09,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 37.52,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 62.53,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 97.92,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 23.29,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 42.71,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 23.07,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 25.2,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 15.62,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 62.7,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 74.29,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 55.55,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 27.0,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 27.33,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 54.37,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 80.12,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 73.16,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 23.06,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 45.52,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 86.36,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 94.69,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 89.17,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 91.7,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 63.54,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 35.66,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 22.93,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 77.13,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 65.63,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 89.03,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 15.1,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 78.03,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 44.82,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 52.89,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 85.68,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 75.64,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 77.17,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 78.56,
+        "fecha": "1 de febrero de 2026 a las 12:03:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N1",
+        "consumo_kwh": 84.71,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N2",
+        "consumo_kwh": 23.11,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N3",
+        "consumo_kwh": 88.22,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N4",
+        "consumo_kwh": 45.55,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N5",
+        "consumo_kwh": 85.87,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N6",
+        "consumo_kwh": 31.7,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N7",
+        "consumo_kwh": 52.24,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N8",
+        "consumo_kwh": 78.99,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N9",
+        "consumo_kwh": 19.32,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N10",
+        "consumo_kwh": 23.52,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N11",
+        "consumo_kwh": 51.57,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    },
+    {
+        "id_punto": "N12",
+        "consumo_kwh": 25.02,
+        "fecha": "1 de febrero de 2026 a las 12:31:48 a.m. UTC-6"
+    }
+]
