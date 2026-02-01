@@ -9,7 +9,7 @@
 # Creado por: Tec. René Mauricio Góchez Chicas.                                               *
 # Versión: 4.1.0                                                                              *
 # Modificaciones:                                                                             *
-#                se coloco la opcion de guardar directamente en la base de datos o un archivo *
+#                se ajusto los parametros y la forma de ver en pantallas                      *
 # Apoyo de GEMINI para edicion y correcciones y GEMINI para estructura, funciones y clases.   *
 #                                                                                             *
 # # NOTA: Requiere instalar firebase-admin y tener las credenciales adecuadas.                *
@@ -222,6 +222,7 @@ class SimulatorApp:
         self.stop_event = threading.Event()
         self.intervalo_minutos = tk.IntVar(value=1)
         self.horas_aceleradas = tk.IntVar(value=1)
+        self.sort_descending = True  # Por defecto descendente
         self.setup_ui()
         
         # Capturar el evento de cierre de la ventana (X de la barra superior)
@@ -326,7 +327,7 @@ class SimulatorApp:
         self.monitor_tree = ttk.Treeview(tree_frame, columns=("ID", "Valor", "Hora"), show="headings")
         self.monitor_tree.heading("ID", text="PUNTO", command=lambda: self.sort_column("ID", False))
         self.monitor_tree.heading("Valor", text="kWh")
-        self.monitor_tree.heading("Hora", text="FECHA", command=lambda: self.sort_column("Hora", True))
+        self.monitor_tree.heading("Hora", text="FECHA ▼", command=lambda: self.sort_column("Hora", None))
         
         scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=self.monitor_tree.yview)
         self.monitor_tree.configure(yscrollcommand=scrollbar.set)
@@ -499,9 +500,12 @@ class SimulatorApp:
         threading.Thread(target=worker, daemon=True).start()
 
     def sort_column(self, col, reverse):
+        # Si es la columna de Hora, manejamos el indicador visual y alternancia
         if col == "Hora":
-            respuesta = messagebox.askyesno("Orden de Fecha", "¿Desea orden descendente? (Si=Descendente, No=Ascendente)")
-            reverse = respuesta
+            self.sort_descending = not self.sort_descending if reverse is None else reverse
+            reverse = self.sort_descending
+            icon = "▼" if reverse else "▲"
+            self.monitor_tree.heading("Hora", text=f"FECHA {icon}")
 
         l = [(self.monitor_tree.set(k, col), k) for k in self.monitor_tree.get_children('')]
         # Intentar ordenar numéricamente si es posible, si no, alfabéticamente
